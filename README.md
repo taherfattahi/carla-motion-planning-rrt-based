@@ -2,7 +2,7 @@
 
 ## Overview
 
-Autonomous driving simulation using the [CARLA Simulator](https://carla.org/)🤖 It implements a complete pipeline including:
+Autonomous driving simulation using the [CARLA Simulator](https://carla.org/)🤖. It implements a complete pipeline including:
 
 - **Environment Setup:** Loading a CARLA world (e.g., Town03), configuring synchronous mode, and spawning vehicles (ego and obstacles).
 - **Path Planning:** Generating collision-free paths using sampling-based algorithms (RRT, RRT*, and Informed RRT*) implemented in `RRT.py`.
